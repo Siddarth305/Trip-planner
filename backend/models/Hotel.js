@@ -4,7 +4,7 @@ const hotelSchema = new mongoose.Schema({
   name: String,
   place: String,
   photo: String,
-  contact: Number, // This field already exists
+  contact: Number, // This field already exists.
   mapLink: String,
   pricePerDay: Number
 });
