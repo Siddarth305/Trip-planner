@@ -1,22 +1,82 @@
-Travel Planner Application
-    This application is a comprehensive travel planning tool that leverages modern technologies to simplify the process of organizing a trip. It provides users with a seamless and       
-    interactive platform to plan their journeys by integrating the following features:
+🌍 Travel Planner Application
+A full-stack travel planning tool that makes organizing trips easy and efficient. This application integrates user-friendly features like destination selection, interactive maps, and budget estimation to provide a seamless travel planning experience.
 
-Key Features:
-    User Authentication
-        Secure login and registration functionality for personalized experiences.
-    Place Selection
-        Browse and select destinations for the trip, with detailed information about the selected location.
-    Interactive Maps
-        Visualize travel routes and destinations using integrated maps for a better understanding of the journey.
-    Points of Interest
-        Display nearby hotels, restaurants, and tourist attractions for chosen destinations.
-    Budget Management
-        Estimate the total trip cost based on selected options, including accommodation, dining, and travel expenses.
-    Free API Integration
-        Leverage free APIs to fetch data, ensuring up-to-date and reliable information for users.
-Technology Stack:
-    Frontend: Built using React, ensuring a responsive and intuitive user interface.
-    Backend: Powered by Express.js, offering a robust and scalable server-side framework.
-    Database: Data storage and management through MongoDB, providing flexibility and speed.
-This application is designed to enhance the travel planning experience by consolidating essential services into a single, user-friendly platform. Whether it’s a weekend getaway or an international adventure, the Travel Planner with MongoDB ensures a hassle-free journey.
+🚀 Features
+User Authentication:
+Secure login and registration to personalize user experiences.
+
+Destination Selection:
+Choose your travel destination and explore details about the place.
+
+Interactive Maps:
+Visualize routes and locations with integrated mapping features.
+
+Nearby Attractions:
+Discover hotels, restaurants, and tourist attractions near your chosen destination.
+
+Budget Calculation:
+Get an estimated total trip cost, including accommodations, food, and travel expenses.
+
+API Integration:
+Uses free APIs to fetch real-time, reliable data about destinations and attractions.
+
+🛠️ Technology Stack
+Frontend: React
+Backend: Express.js
+Database: MongoDB
+📂 Folder Structure
+bash
+Copy code
+.
+├── backend/        # Express server files  
+├── frontend/       # React application files  
+├── config/         # Configuration files (API keys, database, etc.)  
+├── public/         # Static assets  
+├── README.md       # Project documentation  
+└── .env            # Environment variables  
+⚙️ Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/Siddarth305/travel-planner.git
+cd travel-planner
+Install dependencies:
+
+bash
+Copy code
+cd backend
+npm install
+cd ../frontend
+npm install
+Set up environment variables:
+Create a .env file in the backend folder with the following:
+
+env
+Copy code
+MONGO_URI=your_mongodb_connection_string  
+API_KEY=your_api_key_for_maps_or_other_apis
+Start the application:
+
+bash
+Copy code
+# In backend/
+npm start
+
+# In frontend/
+npm start
+Open your browser and visit:
+http://localhost:3000
+
+🌟 Contributing
+Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+📧 Contact
+For questions or feedback, feel free to contact:
+Your Name
+Email: siddarth3055@gmail.com
+GitHub: Siddarth305
+
